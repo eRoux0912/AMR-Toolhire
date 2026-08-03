@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMR Toolhire</title>
+
+    <meta name="description" content="AMR Toolhire — tool and equipment hire in St Helena Bay, Vredenburg, Velddrif & Paternoster. Site equipment, concrete breaking, generators, garden tools, and chemical rock drilling.">
+
+<meta property="og:title" content="AMR Toolhire — Tool & Equipment Hire, St Helena Bay">
+<meta property="og:description" content="Well-maintained equipment for site work, concrete breaking, generators, garden tools, and rock drilling. Serving the West Coast.">
+<meta property="og:type" content="website">
+<!-- og:url and og:image to be added once the domain is live -->
+ <!-- google analytics after domain is live -->
+
+<link rel="icon" type="image/webp" href="images/favicon.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Knewave&family=Oswald:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-xl" id="mainNav">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#about"><img src="images/logo.webp" alt="AMR Toolhire Logo" id="logo" width="240" height="65"></a>
+
+   <span class="navbar-slogan d-none d-xl-block">Your <span class="slogan-accent">One-Stop</span> Shop</span>
+
+    <button class="navbar-toggler" id="navbarToggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navOffcanvas" aria-controls="navOffcanvas" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+    <div class="offcanvas offcanvas-end offcanvas-xl" tabindex="-1" id="navOffcanvas" aria-labelledby="navOffcanvasLabel">
+    <div class="offcanvas-header">
+    <div class="offcanvas-title" id="navOffcanvasLabel">Menu</div>
+        <button class="btn-close" id="togglerClose" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1">
+          <li class="nav-item" ><a class="nav-link" href="#site-industrial">Site & Industrial</a></li>
+          <li class="nav-item" ><a class="nav-link" href="#breaking-concrete">Concrete & Breaking</a></li>
+          <li class="nav-item" ><a class="nav-link" href="#generators">Generators</a></li>
+          <li class="nav-item" ><a class="nav-link" href="#garden">Garden</a></li>
+          <li class="nav-item" ><a class="nav-link" href="#rock-drilling">Rock Drilling</a></li>
+          <li class="nav-item" ><a class="nav-link nav-link-contact" href="#contact">Contact</a></li>
+        </ul>
+
+        <p class="navbar-slogan-mobile d-xl-none text-center">Your <span class="slogan-accent-mobile">One-Stop</span> Shop</p>
+      </div>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main>
+  <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel"  data-bs-interval="5000"data-bs-pause="false">
+
+    <div class="carousel-inner">
+
+      <!-- Slide 1: Fleet -->
+      <div class="carousel-item active">
+        <img src="images/fleet.webp" class="d-block w-100" alt="AMR Toolhire equipment fleet ready for delivery in St Helena Bay">
+        <div class="hero-content">
+          <p class="hero-content-h1">Ready When You Are</p>
+          <div class="hero-badges">
+            <span class="badge-item" style="animation-delay: 0.3s;"><i class="bi bi-geo-alt-fill " aria-hidden="true"></i> St Helena Bay, Vredenburg, Velddrif & Paternoster</span>
+            <span class="badge-item" style="animation-delay: 0.5s;"><i class="bi bi-clock-fill" aria-hidden="true"></i> On Time, Every Time</span>
+            <span class="badge-item" style="animation-delay: 0.7s;"><i class="bi bi-truck" aria-hidden="true"></i> Reliable Delivery</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2: Rock Drilling -->
+      <div class="carousel-item">
+        <img src="images/rockDrilling.webp" class="d-block w-100" alt="Rock drilling service using liquid rock-breaking formula, no blasting required">
+        <div class="hero-content">
+          <p class="hero-content-h1">Precision Rock Drilling and Breaking</p>
+          <div class="hero-badges">
+            <span class="badge-item" style="animation-delay: 0.3s;"><i class="bi bi-droplet-fill" aria-hidden="true"></i> Chemical Solutions</span>
+            <span class="badge-item" style="animation-delay: 0.5s;"><i class="bi bi-shield-check" aria-hidden="true"></i> Safe for People & Environment</span>
+            <span class="badge-item" style="animation-delay: 0.7s;"><i class="bi bi-lightning-fill" aria-hidden="true"></i> Smarter, Faster</span>
+          </div>
+          <a href="#rock-drilling" class="btn btn-hero-cta" style="animation-delay: 0.9s;">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Slide 3: Equipment -->
+      <div class="carousel-item">
+        <img src="images/equipment.webp" class="d-block w-100" alt="Mobile compressors on site, heavy duty equipment for hire">
+        <div class="hero-content">
+          <p class="hero-content-h1">Heavy Duty. Job Ready.</p>
+          <div class="hero-badges">
+            <span class="badge-item" style="animation-delay: 0.3s;"><i class="bi bi-gear-fill" aria-hidden="true"></i> Maintained Equipment</span>
+            <span class="badge-item" style="animation-delay: 0.5s;"><i class="bi bi-shield-check" aria-hidden="true"></i> Reliable</span>
+            <span class="badge-item" style="animation-delay: 0.7s;"><i class="bi bi-award-fill" aria-hidden="true"></i> Professional Grade</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- about section -->
+
+  <section id="about" class="about-section" aria-labelledby="about-heading">
+  <div class="container">
+    <h1 id="about-heading">About AMR Toolhire</h1>
+    <p class="about-intro">
+     AMR Toolhire is a St Helena Bay-based equipment hire company serving
+     Vredenburg, Velddrif, and Paternoster. We supply well-maintained, job-ready
+     equipment for site work, concrete breaking, and general garden and DIY
+     projects — backed by a workshop that takes equipment care seriously. We also
+     offer a specialized chemical rock-breaking and drilling service, providing a
+     safer, blast-free alternative for precision rock removal.
+    </p>
+
+    <ul class="row about-pillars list-unstyled">
+      <li class="col-md-4 about-pillar fade-in-item" style="transition-delay: 0s">
+        <i class="bi bi-tools" aria-hidden="true"></i>
+        <h2>Well-Maintained Equipment</h2>
+        <p>Every tool is inspected, serviced, and stored in a clean, organized workshop before it goes out on hire.</p>
+      </li>
+      <li class="col-md-4 about-pillar fade-in-item" style="transition-delay: 0.1s">
+        <i class="bi bi-clock-fill" aria-hidden="true"></i>
+        <h2>Reliable Service</h2>
+        <p>On time, every time. We know a delayed delivery means a delayed job.</p>
+      </li>
+      <li class="col-md-4 about-pillar fade-in-item" style="transition-delay: 0.2s">
+        <i class="bi bi-person-check-fill" aria-hidden="true"></i>
+        <h2>Local & Accountable</h2>
+        <p>Proudly part of the West Coast community, serving St Helena Bay, Vredenburg, Velddrif, and Paternoster.</p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="brand-divider">
+  <img src="images/logoAndCompactors.webp" 
+       class="divider-img img-fluid" 
+       width="2576" 
+       height="400" 
+       alt="AMR Toolhire logo with compactor equipment and contact number on either side, St Helena Bay tool hire">
+</div>
+
+  <!-- equipment teaser -->
+
+  <!-- inside existing <section id="about" class="about-section" aria-labelledby="about-heading"> -->
+
+<div class="equipment-teaser-wrap">
+  <div class="container">
+    <div class="row equipment-teaser">
+       <div class="col-6 col-md-4 col-lg-2 equipment-card">
+        <a href="#generators">
+          <i class="bi bi-lightning-charge-fill" aria-hidden="true"></i>
+          <h3>Generators</h3>
+          <p>Reliable backup power, sized right for home use or a busy job site.</p>
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 equipment-card">
+        <a href="#site-industrial">
+          <i class="bi bi-tools" aria-hidden="true"></i>
+          <h3>Site &amp; Industrial</h3>
+          <p>Compactors, pumps, and heavy-duty gear built for demanding site work.</p>
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 equipment-card">
+        <a href="#breaking-concrete">
+          <i class="bi bi-hammer" aria-hidden="true"></i>
+          <h3>Concrete &amp; Breaking</h3>
+          <p>Breakers and cutting gear for demolition, from small jobs to full slabs.</p>
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 equipment-card">
+        <a href="#garden">
+          <i class="bi bi-tree-fill" aria-hidden="true"></i>
+          <h3>Garden</h3>
+          <p>Chainsaws, brushcutters, and hedge cutters to get any outdoor job done.</p>
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 equipment-card">
+        <a href="#rock-drilling">
+          <i class="bi bi-droplet-fill" aria-hidden="true"></i>
+          <h3>Rock Drilling</h3>
+          <p>Chemical rock-breaking and drilling — safe, precise, blast-free.</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- site & industrial section -->
+
+<section id="site-industrial" aria-labelledby="site-industrial-heading" class="site-industrial-section">
+  <div class="container">
+    <h2 id="site-industrial-heading">Site &amp; Industrial</h2>
+    <p class="section-intro text-center mx-auto">Heavy-duty, well-maintained equipment for site preparation, industrial jobs, and everything in between.</p>
+
+    <!-- Featured item 1 -->
+    <div class="row align-items-center equipment-row fade-in-item">
+      <div class="col-md-6">
+        <img src="images/mobileCompressors.webp" alt="Mobile compressor unit, powers pneumatic tools on site" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+      </div>
+      <div class="col-md-6 text-center">
+        <h3>Mobile Compressors</h3>
+        <p>Powers jackhammers, drills, and other pneumatic tools on site. Reliable, mobile, and ready to keep the job moving.</p>
+      </div>
+    </div>
+
+    <!-- Featured item 2, reversed -->
+    <div class="row align-items-center equipment-row flex-md-row-reverse fade-in-item">
+      <div class="col-md-6">
+        <img src="images/dustFiltrationSystem.webp" alt="Industrial dust filtration unit with extraction hose" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+      </div>
+      <div class="col-md-6 text-center">
+        <h3>Dust Filtration System</h3>
+        <p>Keeps job sites clean and compliant by controlling dust during cutting, grinding, and demolition work.</p>
+      </div>
+    </div>
+
+    <!-- Featured item 3 -->
+    <div class="row align-items-center equipment-row fade-in-item">
+      <div class="col-md-6">
+        <img src="images/1tonPedestrianRoller.webp" alt="Walk-behind roller used for ground compaction on larger sites" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+      </div>
+      <div class="col-md-6 text-center">
+        <h3>1-Ton Pedestrian Roller</h3>
+        <p>Heavy-duty ground compaction for larger site jobs — walk-behind control, serious compaction power.</p>
+      </div>
+    </div>
+
+    <!-- Remaining equipment grid -->
+    <ul class="row equipment-grid list-unstyled justify-content-center">
+      <li class="col-6 col-md-4 col-lg-3 equipment-grid-item text-center fade-in-item" style="transition-delay: 0s">
+        <img src="images/550kgPedestrianRoller.webp" alt="Smaller 550kg pedestrian roller, compact site compaction" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+        <h3>550kg Pedestrian Roller</h3>
+      </li>
+      <li class="col-6 col-md-4 col-lg-3 equipment-grid-item text-center fade-in-item" style="transition-delay: 0.06s">
+        <img src="images/compactors.webp" alt="Range of compactors ready for hire" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+        <h3>Compactors</h3>
+      </li>
+      <li class="col-6 col-md-4 col-lg-3 equipment-grid-item text-center fade-in-item" style="transition-delay: 0.12s">
+        <img src="images/plateCompactors.webp" alt="Plate compactor with vibrating base plate" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+        <h3>Plate Compactors</h3>
+      </li>
+      <li class="col-6 col-md-4 col-lg-3 equipment-grid-item text-center fade-in-item" style="transition-delay: 0.18s">
+        <img src="images/constructionProps.webp" alt="Adjustable steel construction props stacked for hire" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+        <h3>Construction Props</h3>
+      </li>
+      <li class="col-6 col-md-4 col-lg-3 equipment-grid-item text-center fade-in-item" style="transition-delay: 0.24s">
+        <img src="images/mobileWasher.webp" alt="Mobile high-pressure washer unit on wheels" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+        <h3>Mobile Washer</h3>
+      </li>
+      <li class="col-6 col-md-4 col-lg-3 equipment-grid-item text-center fade-in-item" style="transition-delay: 0.3s">
+        <img src="images/electricAndPetrolWashers.webp" alt="Electric and petrol-powered pressure washers, side by side" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+        <h3>Electric &amp; Petrol Washers</h3>
+      </li>
+      <li class="col-6 col-md-4 col-lg-3 equipment-grid-item text-center fade-in-item" style="transition-delay: 0.36s">
+        <img src="images/spaceHeaterDehumidifier.webp" alt="Combined space heater and dehumidifier unit" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+        <h3>Space Heater &amp; Dehumidifier</h3>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Concrete & Breaking Section -->
+
+<section id="breaking-concrete" aria-labelledby="breaking-concrete-heading" class="breaking-concrete-section">
+  <div class="container text-center">
+    <h2 id="breaking-concrete-heading">Concrete &amp; Breaking</h2>
+    <p class="section-intro text-center mx-auto">Serious demolition and concrete-cutting power for jobs that demand it.</p>
+
+    <div class="row align-items-center equipment-row fade-in-item">
+      <div class="col-md-6">
+        <img src="images/jackhammers.webp" alt="Heavy-duty jackhammer for concrete and rock demolition" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+      </div>
+      <div class="col-md-6 text-center">
+        <h3>Jackhammers</h3>
+        <p>From small breakers to full demolition power — sized for the job, ready to work.</p>
+      </div>
+    </div>
+
+    <div class="row align-items-center equipment-row flex-md-row-reverse fade-in-item">
+      <div class="col-md-6">
+        <img src="images/concreteCutter.webp" alt="Petrol-powered floor saw for cutting concrete slabs" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+      </div>
+      <div class="col-md-6">
+        <h3>Concrete Cutter</h3>
+        <p>Clean, precise cuts through concrete floors and slabs.</p>
+      </div>
+    </div>
+
+    <div class="row align-items-center equipment-row fade-in-item">
+      <div class="col-md-6">
+        <img src="images/cementMixer.webp" alt="400 litre cement mixer for hire" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+      </div>
+      <div class="col-md-6">
+        <h3>Cement Mixer</h3>
+        <p>Reliable mixing for concrete work of any size, from patch jobs to full pours.</p>
+      </div>
+    </div>
+
+    <div class="row align-items-center equipment-row flex-md-row-reverse fade-in-item">
+      <div class="col-md-6">
+        <img src="images/pokerAndDriveUnit.webp" alt="Vibrating poker and petrol drive unit for concrete work" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+      </div>
+      <div class="col-md-6">
+        <h3>Poker &amp; Drive Unit</h3>
+        <p>Removes trapped air from poured concrete for a stronger, smoother finish.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Generators Section -->
+
+<section id="generators" aria-labelledby="generators-heading" class="generators-section">
+  <div class="container text-center">
+    <h2 id="generators-heading">Generators</h2>
+    <p class="section-intro text-center mx-auto">Reliable backup power, sized right for home use or a busy job site.</p>
+
+    <ul class="row justify-content-center g-4 list-unstyled generator-grid">
+      <li class="col-md-5 col-lg-4 generator-card fade-in-item" style="transition-delay: 0s">
+        <img src="images/generator6_5kva.webp" alt="6.5kVA generator with AVR for home and small business backup power" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+        <h3>6.5kVA Generator</h3>
+        <p>Compact backup power for homes, small businesses, and light-duty site use.</p>
+      </li>
+      <li class="col-md-5 col-lg-4 generator-card fade-in-item" style="transition-delay: 0.1s">
+        <img src="images/40kvaGenerator.webp" alt="40kVA generator for industrial and large site power needs" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+        <h3>40kVA Generator</h3>
+        <p>Serious power for larger sites and industrial applications.</p>
+      </li>
+      <!-- Add additional <li> here if a third generator size is confirmed -->
+    </ul>
+  </div>
+</section>
+
+<!-- Garden Section -->
+
+<section id="garden" aria-labelledby="garden-heading" class="garden-section">
+  <div class="container text-center">
+    <h2 id="garden-heading">Garden</h2>
+    <p class="section-intro text-center mx-auto">Chainsaws, brushcutters, and hedge cutters to get any outdoor job done.</p>
+
+    <ul class="row justify-content-center g-4 list-unstyled garden-grid">
+      <li class="col-md-5 col-lg-4 garden-card fade-in-item" style="transition-delay: 0s">
+        <img src="images/chainsaw.webp" alt="Petrol chainsaw for tree cutting and pruning" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+        <h3>Chainsaw</h3>
+        <p>Powerful, reliable cutting for trees, branches, and firewood prep.</p>
+      </li>
+      <li class="col-md-5 col-lg-4 garden-card fade-in-item" style="transition-delay: 0.1s">
+        <img src="images/petrolHedgeTrimmer.webp" alt="Petrol-powered hedge trimmer for garden maintenance" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+        <h3>Hedge Trimmer</h3>
+        <p>Clean, even trims for hedges and shrubs of any size.</p>
+      </li>
+      <li class="col-md-5 col-lg-4 garden-card fade-in-item" style="transition-delay: 0.2s">
+        <img src="images/woodchipper.webp" alt="Wood chipper for garden waste and branch disposal" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+        <h3>Wood Chipper</h3>
+        <p>Turns branches and garden waste into manageable mulch, fast.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Rock Drilling Section -->
+
+<section id="rock-drilling" aria-labelledby="rock-drilling-heading" class="rock-drilling-section">
+  <div class="container text-center">
+    <h2 id="rock-drilling-heading">Rock Drilling &amp; Rock Breaking Services</h2>
+    <p class="rock-drilling-tagline">Break Through With Confidence</p>
+    <p class="section-intro mx-auto">A safer, blast-free alternative for precision rock removal — assessed on site, quoted to the job.</p>
+
+    <!-- How It Works -->
+    <h3 class="rock-drilling-subheading">How It Works</h3>
+    <ol class="row rock-steps list-unstyled g-4">
+      <li class="col-md-4 rock-step fade-in-item" style="transition-delay: 0s">
+        <div class="rock-step-card">
+          <span class="rock-step-number" aria-hidden="true">1</span>
+          <img src="images/rockBreakingFirst.webp" alt="Drilling equipment boring precision holes into rock at a job site" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+          <h4>Drill</h4>
+          <p>Precision drilling at strategic points to the required depth.</p>
+        </div>
+      </li>
+      <li class="col-md-4 rock-step fade-in-item" style="transition-delay: 0.1s">
+        <div class="rock-step-card">
+          <span class="rock-step-number" aria-hidden="true">2</span>
+          <img src="images/rockBreakingSecond.webp" alt="Specialised chemical solution being applied into drilled rock holes" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+          <h4>Chemical Application</h4>
+          <p>Specialised chemicals are inserted into the drilled holes to expand and weaken the rock.</p>
+        </div>
+      </li>
+      <li class="col-md-4 rock-step fade-in-item" style="transition-delay: 0.2s">
+        <div class="rock-step-card">
+          <span class="rock-step-number" aria-hidden="true">3</span>
+          <img src="images/rockBreakingFinal.webp" alt="Rock cracked and broken apart cleanly after chemical treatment" width="1350" height="750" class="img-fluid rounded" loading="lazy">
+          <h4>Rock Breaks Apart</h4>
+          <p>The rock naturally cracks and breaks apart — clean, controlled, and efficient.</p>
+        </div>
+      </li>
+    </ol>
+
+    <!-- Trust badges -->
+    <div class="row justify-content-center rock-trust-badges g-4">
+      <div class="col-6 col-md-4 rock-trust-badge fade-in-item" style="transition-delay: 0s">
+        <i class="bi bi-shield-slash-fill" aria-hidden="true"></i>
+        <h4>Blast-Free</h4>
+      </div>
+      <div class="col-6 col-md-4 rock-trust-badge fade-in-item" style="transition-delay: 0.1s">
+        <i class="bi bi-shield-check" aria-hidden="true"></i>
+        <h4>Safe &amp; Controlled</h4>
+      </div>
+      <div class="col-6 col-md-4 rock-trust-badge fade-in-item" style="transition-delay: 0.2s">
+        <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
+        <h4>Assessed On-Site</h4>
+      </div>
+    </div>
+
+    <!-- Ideal For -->
+    <h3 class="rock-drilling-subheading">Ideal For</h3>
+    <ul class="rock-ideal-for list-unstyled">
+      <li><i class="bi bi-house-fill" aria-hidden="true"></i> Foundations</li>
+      <li><i class="bi bi-water" aria-hidden="true"></i> Pools</li>
+      <li><i class="bi bi-archive-fill" aria-hidden="true"></i> Tanks</li>
+      <li><i class="bi bi-tree-fill" aria-hidden="true"></i> Landscaping</li>
+      <li><i class="bi bi-bounding-box" aria-hidden="true"></i> Excavations</li>
+      <li><i class="bi bi-plus-circle-fill" aria-hidden="true"></i> And More</li>
+    </ul>
+
+    <a href="#contact" class="btn btn-rock-cta">Request a Quote</a>
+  </div>
+</section>
+  </main>
+
+  <!-- Contact section -->
+
+<footer id="contact" aria-labelledby="contact-heading" class="site-footer text-center">
+  <div class="container">
+    <h2 id="contact-heading" class="visually-hidden">Contact AMR Toolhire</h2>
+
+    <h3 class="footer-map-heading">Find Us Here</h3>
+    <div class="footer-map mx-auto">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.192181087212!2d17.993968441248853!3d-32.73408727379118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c349d67d452a183%3A0x2dd70be61ceaaf2c!2sAMR%20Tool%20Hire!5e0!3m2!1sen!2sza!4v1785752084169!5m2!1sen!2sza"
+    width="100%"
+    height="350"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
+    title="Map showing AMR Toolhire location, Columbine, St Helena Bay">
+  </iframe>
+    </div>
+
+    <div class="row footer-main gy-4 justify-content-center mt-5">
+      <div class="col-md-4 footer-col">
+        <img src="images/logo.webp" alt="AMR Toolhire logo" width="180" height="80" class="footer-logo" loading="lazy">
+        <p>Unit C4 Midwest Store<br>
+           35 Main Road<br>
+           Columbine<br>
+           St. Helena Bay, 7390</p>
+      </div>
+
+      <div class="col-md-4 footer-col">
+        <h3>Get In Touch</h3>
+        <ul class="list-unstyled footer-contact-list justify-content-center d-flex flex-column align-items-center">
+          <li>
+            <a href="https://wa.me/27665306370" target="_blank" rel="noopener">
+              <i class="bi bi-whatsapp" aria-hidden="true"></i> 066 530 6370
+            </a>
+          </li>
+          <li>
+            <a href="mailto:rentals.amr@gmail.com">
+              <i class="bi bi-envelope-fill" aria-hidden="true"></i> rentals.amr@gmail.com
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/share/1FJhqPPeZ9/?mibextid=wwXIfr" target="_blank" rel="noopener">
+              <i class="bi bi-facebook" aria-hidden="true"></i> Facebook
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 footer-col">
+        <h3>Hire With Confidence</h3>
+        <p>Hire terms and conditions provided at time of booking.</p>
+      </div>
+    </div>
+
+    <hr class="footer-divider">
+
+    <div class="dev-credit d-flex align-items-center justify-content-center">
+      <img src="images/westCoastDigitalLogo.webp" alt="West Coast Digital logo" width="60" height="60" loading="lazy">
+      <p class="mb-0">Site built by <a href="mailto:westcoastdigital.roche@gmail.com">West Coast Digital</a></p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
+   <script src="app.js"></script>
+</body>
+</html>
