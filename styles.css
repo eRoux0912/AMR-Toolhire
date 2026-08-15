@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
+  scroll-padding-top: 40px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -8,12 +10,16 @@ html {
   }
 }
 
-body {
-  overflow-x: hidden;
-}
-
 body, .nav-link, p {
   font-family: 'Inter', sans-serif;
+}
+
+/* To make the page fixed when offcanvas opened */
+
+@media (max-width: 1199.98px) {
+  body {
+    padding-right: 0 !important;
+  }
 }
 
 h1, h2, h3 {
@@ -22,6 +28,9 @@ h1, h2, h3 {
 
 /* ===== Main Nav & Offcanvas ===== */
 
+#mainNav {
+  z-index: 1030;
+}
 
 #mainNav, .offcanvas {
   background-color: #000000;
@@ -92,6 +101,15 @@ h1, h2, h3 {
 
 .nav-link-about::after, .nav-link-contact::after {
   background-color: #f9f95b;
+}
+
+.nav-link.active {
+  color: #4ec1cb;
+}
+
+.nav-link.active::after {
+  width: 80%;
+  left: 10%;
 }
 
 /* Offcanvas-specific nav overrides (larger, centered, touch-friendly) */
