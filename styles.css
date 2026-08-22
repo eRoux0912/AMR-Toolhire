@@ -112,6 +112,12 @@ h1, h2, h3 {
   left: 10%;
 }
 
+/* Fixes stuck link color: Bootstrap applies hover color on :focus too,
+   and focus lingers after a click. Reset it unless hovering or active. */
+.nav-link:focus:not(:hover):not(.active) {
+  color: #ffffff;
+}
+
 /* Offcanvas-specific nav overrides (larger, centered, touch-friendly) */
 
 #navOffcanvas .navbar-nav {
